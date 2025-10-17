@@ -1,0 +1,42 @@
+NumberOfInitializationCycles 50000
+NumberOfEquilibrationCycles  0
+NumberOfProductionCycles     50000
+
+UseMaxStep  no
+MaxStepPerCycle 1
+
+UseChargesFromCIFFile yes
+
+RestartFile no
+RandomSeed  0
+
+NumberOfTrialPositions 10
+NumberOfTrialOrientations 10
+
+NumberOfBlocks 1
+AdsorbateAllocateSpace 10240
+NumberOfSimulations 1
+SingleSimulation yes
+
+InputFileType cif
+FrameworkName ABW8888
+UnitCells 0 3 5 3
+
+ChargeMethod Ewald
+Temperature 298
+Pressure 1e6
+
+OverlapCriteria 1e5
+CutOffVDW 12.5
+CutOffCoulomb 12.5
+EwaldPrecision 1e-6
+
+Component 0   MoleculeName                 CO2
+              IdealGasRosenbluthWeight     1.0
+              FugacityCoefficient          PR-EOS
+              TranslationProbability       1.0
+              ReinsertionProbability       1.0
+              SwapProbability              1.0
+              RotationProbability          1.0
+              CreateNumberOfMolecules      0
+
