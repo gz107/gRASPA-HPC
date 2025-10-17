@@ -6,6 +6,8 @@
 # 2. Automatic CIF file copy
 # 3. Generate simulation.input
 # 4. Run gRASPA in parallel with max_jobs
+# 5. Author: Zheng
+# 6. Date: 2025.10.18
 #==================================================
 
 set -e
